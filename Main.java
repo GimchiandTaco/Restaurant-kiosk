@@ -97,6 +97,7 @@ public class Main {
                     orderList.add(firesList);
                     System.out.println("선택하신 메뉴가 장바구니에 추가되었습니다.");
                 } else {} //2번을 누르면 다시 돌아감
+                mainMenu(burgers, fries, beverages, orderList);
 
             }
             else if(order==3) {
@@ -122,6 +123,7 @@ public class Main {
                 } else {
 
                 }
+                mainMenu(burgers, fries, beverages, orderList);
             } else if(order==4) {
                 System.out.println("주문내역을 확인합니다");
                 System.out.println("[Order]");
@@ -130,8 +132,8 @@ public class Main {
 
                 Scanner scanner1 = new Scanner(System.in); // 주문,메뉴판 선택 입력
                 String input = scanner1.nextLine();
-                int order1 = Integer.parseInt(input);
-                if (order == 1) {
+                int order3 = Integer.parseInt(input);
+                if (order3 == 1) {
                     System.out.println("주문이 완료되었습니다!");
                     System.out.println("대기번호는[1]번 입니다");
                     System.out.println("(3초 후 메뉴판으로 돌아갑니다.");
@@ -141,6 +143,7 @@ public class Main {
                     System.out.println("메인 메뉴판으로 돌아갑니다");
                     //while 문 안에서 참이 나오지 않으면 다시 처음 메뉴판으로 돌아가기 떄문에 clear 필요 없음
                 }
+                mainMenu(burgers, fries, beverages, orderList);
             } else if(order == 5){
                 System.out.println("진행하던 주문을 취소하시겠습니까?");
                 System.out.println("1. 주문초기화  2. 메인화면으로 돌아가기");
@@ -156,6 +159,7 @@ public class Main {
             } else {
                 System.out.println("잘못된 입력입니다.");
             }
+            mainMenu(burgers, fries, beverages, orderList);
         }
     }
 }
