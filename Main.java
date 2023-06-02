@@ -10,9 +10,9 @@ public class Main {
 
         List burgers = new ArrayList();
 
-        burgers.add(new Item("DOUBLE-DOUBLE" ,"지금까지 이런 프리미엄 버거는 없다!)", 4.5));
-        burgers.add(new Item("CHEESE BURGER" ,"치즈버거의 끝판왕!)", 3.5));
-        burgers.add(new Item("VEGGIE BURGER" ,"채식버거인 줄 몰랐다!)", 3.5));
+        burgers.add(new Item("DOUBLE-DOUBLE" ,"지금까지 이런 프리미엄 버거는 없다!", 4.5));
+        burgers.add(new Item("CHEESE BURGER" ,"치즈버거의 끝판왕!", 3.5));
+        burgers.add(new Item("VEGGIE BURGER" ,"채식버거인 줄 몰랐다!", 3.5));
 
         List fries = new ArrayList();
 
