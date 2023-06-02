@@ -35,7 +35,7 @@ public class Item extends Menu {
             totalPrice += orderlist.price;
         }
         System.out.println("[TOTAL]");
-        System.out.println("W " + totalPrice);
+        System.out.println("$ " + totalPrice);
     }
 }
 
