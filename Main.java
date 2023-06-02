@@ -44,6 +44,8 @@ public class Main {
 
         Menubar category = new Menubar(); //category 객체 생성
         System.out.println(category.getAllCategory()); //객체 생성하고 객체를 통해 호출해야함
+        System.out.println("4 Order ㅣ 장바구니 조회");
+        System.out.println("5 Cancelㅣ 주문내역 취소");
 
         int order = reader.nextInt(); // 입력한 메뉴판 번호를 변수 order에 저장
         Item item = new Item(); //method 호출후 리스트를 넣기 위해 item 객체 생성
